@@ -1,10 +1,10 @@
 //your JS code here. If required.
 let formEle = document.querySelector("form");
-let checkEle = document.querySelector("#submit")
+let checkEle = document.querySelector("#checkbox").checked;
 formEle.addEventListener("submit", submitForm);
 
 function submitForm(e){
 	e.preventDefault();
-	console.log(checkEle.checked);
-	alert("checkbox status :", )
+	
+	alert("checkbox status :", checkEle);
 }
