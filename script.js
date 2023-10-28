@@ -18,4 +18,5 @@ function submitForm(e){
 		localStorage.setItem("usersData", JSON.stringify(userList));
 	}
 	alert( `Logged in as ${userName}`);
+	formEle.reset();
 }
